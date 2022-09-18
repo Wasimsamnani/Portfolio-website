@@ -1,79 +1,61 @@
-import img1 from '../../assets/images/project-page/autovaidya.jpg';
-import img2 from '../../assets/images/project-page/battery.png';
-import img3 from '../../assets/images/project-page/book.png';
-import img4 from '../../assets/images/project-page/chess.jpg';
-import img5 from '../../assets/images/project-page/deepholi.jpg';
-import img6 from '../../assets/images/project-page/doc2pen.jpg';
-import img7 from '../../assets/images/project-page/exercise.jpg';
-import img8 from '../../assets/images/project-page/flappybird.png';
-import img11 from '../../assets/images/project-page/minesweeper.jpg';
-import img12 from '../../assets/images/project-page/movie-recommendation.jpeg';
-import img13 from '../../assets/images/project-page/music.jpg';
-import img14 from '../../assets/images/project-page/poker.jpg';
-import img16 from '../../assets/images/project-page/quiz.jpg';
-import img17 from '../../assets/images/project-page/recipe.jpg';
-import img18 from '../../assets/images/project-page/tic-tac-toe.png';
+import img1 from '../../assets/images/project-page/disneyPlus.png';
+import img2 from '../../assets/images/project-page/Tesla.png';
+import img3 from '../../assets/images/project-page/Analytics.png';
+import img4 from '../../assets/images/project-page/Fooddelivery.png';
+import img5 from '../../assets/images/project-page/Amazone.png';
+import img6 from '../../assets/images/project-page/happyshoppy.png';
+import img7 from '../../assets/images/project-page/Shoppoint.png';
+import img8 from '../../assets/images/project-page/googledocs.png';
 
 const data=[
     {
-        img:img1,
-        title:"Auto Vaidya System"
+        img: img1,        
+        title:"Disney plus Clone",
+        link:"https://disney-plus-clone-virid.vercel.app/",
+        github:"https://github.com/Wasimsamnani/disney-plus-clone"
+
     },
     {
         img:img2,
-        title:"Battery Life Calculator"
+        title:"Tesla Clone",
+        link:"https://tesla-clone-alpha-one.vercel.app/",
+        github:"https://github.com/Wasimsamnani/Tesla-clone"
     },
     {
         img:img3,
-        title:"Personal Book Library"
+        title:"Analytics Landing Page",
+        link:"https://wasim-analytics-landing-page.vercel.app/",
+        github:"https://github.com/Wasimsamnani/Analytics-Landing-Page"
     },
     {
         img:img4,
-        title:"Chess Engine"
+        title:"Food Delivery Landing Page",
+        link:"https://responsive-food-delivery-app-design.vercel.app/",
+        github:"https://github.com/Wasimsamnani/responsive-Food-delivery-app-design"
     },
     {
         img:img5,
-        title:"Deepholi"
+        title:"The Amazone Clone",
+        link:" https://clone-de463.firebaseapp.com/",
+        github:"https://github.com/Wasimsamnani/amazone-clone"
     },
     {
         img:img6,
-        title:"Doc2Pen Project"
+        title:"happyshoppy shopping website",
+        link:"https://my-project-pro.herokuapp.com/",
+        github:"https://github.com/Wasimsamnani/SY-project"
     },
     {
         img:img7,
-        title:"Exercise tracker"
+        title:"Shoppoint shopping website",
+        link:"https://shoppoint.herokuapp.com/",
+        github:"https://github.com/Wasimsamnani/Ty-sem6-project"
     },
     {
         img:img8,
-        title:"Flappy Bird"
-    },
-    {
-        img:img11,
-        title:"Minesweeper Game"
-    },
-    {
-        img:img12,
-        title:"Movie Recommendation System"
-    },
-    {
-        img:img13,
-        title:"Music Recommendation Engine"
-    },
-    {
-        img:img14,
-        title:"Poker Game"
-    },
-    {
-        img:img16,
-        title:"Quiz App"
-    },
-    {
-        img:img17,
-        title:"Recipe Ingredient Parser"
-    },
-    {
-        img:img18,
-        title:"Tic-Tac-Toe Game"
-    },
+        title:"Google Docs Clone",
+        link:"https://googledocs-clone123-eiukqb2xk-wasimsamnani.vercel.app/",
+        github:"https://github.com/Wasimsamnani/googledocs-clone"
+    }
 ]
 export default data;

@@ -5,13 +5,15 @@ const domains = [
 
   "UI/UX",
 
-  "Cloud Computing",
-
   "Web Development",
 
   "Open Source",
 
-  "Mentoring",
+  "Mentoring and Teaching",
+
+  "Sales",
+  
+  "Network Marketing",
 ];
 
 var designSequence = [];

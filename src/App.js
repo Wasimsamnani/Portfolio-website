@@ -67,7 +67,7 @@ function App() {
     <>
       <div className="App">
         <Helmet>
-          <title>John Doe | Home</title>
+          <title>Wasim Samnani | Home</title>
           <meta charset="UTF-8" />
           <meta
             name="viewport"
@@ -86,9 +86,9 @@ function App() {
           <meta name="AdsBot-Google" content="index,follow" />
           <meta
             property="og:site_name"
-            content="https://portfolio.smaranjitghose.codes/"
+            content="https://github.com/Wasimsamnani/Portfolio-website/"
           />
-          <meta property="og:title" content="John Doe | Home" />
+          <meta property="og:title" content="Wasim Samnani | Home" />
           <meta
             property="og:description"
             content="An open source project aimed at providing free and beautiful templates to everyone for building their portfolio websites and showcase their work to the world."
@@ -96,20 +96,20 @@ function App() {
           <meta property="og:type" content="website" />
           <meta
             property="og:url"
-            content="https://portfolio.smaranjitghose.codes/"
+            content="https://github.com/Wasimsamnani/Portfolio-website/"
           />
           <meta name="twitter:card" content="summary" />
-          <meta name="twitter:title" content="John Doe | Home" />
+          <meta name="twitter:title" content="Wasim Samnani | Home" />
           <meta
             name="twitter:description"
             content="An open source project aimed at providing free and beautiful templates to everyone for building their portfolio websites and showcase their work to the world."
           />
           <meta
             name="twitter:url"
-            content="https://portfolio.smaranjitghose.codes/"
+            content="https://github.com/Wasimsamnani/Portfolio-website/"
           />
-          <meta name="application-name" content="John Doe | Home" />
-          <meta name="apple-mobile-web-app-title" content="John Doe | Home" />
+          <meta name="application-name" content="Wasim Samnani | Home" />
+          <meta name="apple-mobile-web-app-title" content="Wasim Samnani | Home" />
           <meta
             name="summary"
             content="An open source project aimed at providing free and beautiful templates to everyone for building their portfolio websites and showcase their work to the world."

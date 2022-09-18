@@ -273,7 +273,7 @@ a:hover {
 @media(min-width: 60rem) {
     .card .title {
         padding-bottom: 4rem;
-        font-size: 1.2em;
+        font-size: 0.9em;
     }
 }
 

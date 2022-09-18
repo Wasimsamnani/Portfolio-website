@@ -12,7 +12,7 @@ const Reference = () => {
     return (
         <div className='main-body'>            
             <Helmet>
-                <title>John Doe | Reference</title>    
+                <title>Wasim Samnani | Reference</title>    
             </Helmet>
 
             <Preloader />

@@ -91,7 +91,7 @@ const Navbar = () => {
             to="/"
             className={styles["link"]}
           >
-            John Doe
+            Wasim Samnani
           </Link>
         </div>
         {isMobile ? (

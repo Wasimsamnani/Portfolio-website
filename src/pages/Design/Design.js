@@ -22,7 +22,7 @@ const Designs = () => {
   return (
     <>
       <Helmet>
-        <title>John Doe | Design</title>
+        <title>Wasim Samnani | Design</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
@@ -38,9 +38,9 @@ const Designs = () => {
         <meta name="AdsBot-Google" content="index,follow" />
         <meta
           property="og:site_name"
-          content="https://portfolio.smaranjitghose.codes/design.html"
+          content="https://github.com/Wasimsamnani/Portfolio-website/design.html"
         />
-        <meta property="og:title" content="John Doe | Design" />
+        <meta property="og:title" content="Wasim Samnani | Design" />
         <meta
           property="og:description"
           content="An open source project aimed at providing free and beautiful templates to everyone for building their portfolio websites and showcase their work to the world."
@@ -48,20 +48,20 @@ const Designs = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://portfolio.smaranjitghose.codes/design.html"
+          content="https://github.com/Wasimsamnani/Portfolio-website/design.html"
         />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="John Doe | Design" />
+        <meta name="twitter:title" content="Wasim Samnani | Design" />
         <meta
           name="twitter:description"
           content="An open source project aimed at providing free and beautiful templates to everyone for building their portfolio websites and showcase their work to the world."
         />
         <meta
           name="twitter:url"
-          content="https://portfolio.smaranjitghose.codes/design.html"
+          content="https://github.com/Wasimsamnani/Portfolio-website/design.html"
         />
-        <meta name="application-name" content="John Doe | Design" />
-        <meta name="apple-mobile-web-app-title" content="John Doe | Design" />
+        <meta name="application-name" content="Wasim Samnani | Design" />
+        <meta name="apple-mobile-web-app-title" content="Wasim Samnani | Design" />
         <meta
           name="summary"
           content="An open source project aimed at providing free and beautiful templates to everyone for building their portfolio websites and showcase their work to the world."

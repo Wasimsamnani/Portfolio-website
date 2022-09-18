@@ -2,7 +2,7 @@ import React from "react";
 import Particles from "react-particles-js";
 import styles from "./Home.module.css";
 import Hand from "../../assets/images/Hand.gif";
-import dp_male from "../../assets/images/dp_male.svg";
+import profile_image from '../../assets/images/home/profile-image.jpeg';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faKaggle } from "@fortawesome/free-brands-svg-icons";
 import { Helmet } from "react-helmet";
@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div className={styles["home"]}>
       <Helmet>
-        <title>John Doe | Home</title>
+        <title>Wasim Samnani | Home</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
@@ -29,9 +29,9 @@ const Home = () => {
         <meta name="AdsBot-Google" content="index,follow" />
         <meta
           property="og:site_name"
-          content="https://portfolio.smaranjitghose.codes/"
+          content="https://github.com/Wasimsamnani/Portfolio-website/"
         />
-        <meta property="og:title" content="John Doe | Home" />
+        <meta property="og:title" content="Wasim Samnani | Home" />
         <meta
           property="og:description"
           content="An open source project aimed at providing free and beautiful templates to everyone for building their portfolio websites and showcase their work to the world."
@@ -39,20 +39,20 @@ const Home = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://portfolio.smaranjitghose.codes/"
+          content="https://github.com/Wasimsamnani/Portfolio-website/"
         />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="John Doe | Home" />
+        <meta name="twitter:title" content="Wasim Samnani | Home" />
         <meta
           name="twitter:description"
           content="An open source project aimed at providing free and beautiful templates to everyone for building their portfolio websites and showcase their work to the world."
         />
         <meta
           name="twitter:url"
-          content="https://portfolio.smaranjitghose.codes/"
+          content="https://github.com/Wasimsamnani/Portfolio-website/"
         />
-        <meta name="application-name" content="John Doe | Home" />
-        <meta name="apple-mobile-web-app-title" content="John Doe | Home" />
+        <meta name="application-name" content="Wasim Samnani | Home" />
+        <meta name="apple-mobile-web-app-title" content="Wasim Samnani | Home" />
         <meta
           name="summary"
           content="An open source project aimed at providing free and beautiful templates to everyone for building their portfolio websites and showcase their work to the world."
@@ -120,7 +120,7 @@ const Home = () => {
             },
             move: {
               enable: true,
-              speed: 1,
+              speed: 10,
               direction: "none",
               random: false,
               straight: false,
@@ -161,11 +161,11 @@ const Home = () => {
               Hi <img className={styles["wave"]} src={Hand} alt="" />, I'm{" "}
               <span>
                 {" "}
-                <b> John Doe</b>
+                <b> Wasim Samnani</b>
               </span>
             </span>
             <div className={styles["center"]}>
-              <img src={dp_male} alt="" />
+              <img src={profile_image} alt="image-avatar" />
             </div>
           </div>
           <div className={styles["typing"]}>
@@ -279,7 +279,7 @@ const Home = () => {
             </a>
             <a
               className={`${styles["socialicon"]} ${styles["linkedin"]}`}
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/wasim-samnani-871b351a9/"
               target="_blank"
               rel="noreferrer"
             >
@@ -395,7 +395,7 @@ const Home = () => {
 
             <a
               className={`${styles["socialicon"]} github`}
-              href="https://github.com/"
+              href="https://github.com/Wasimsamnani/"
               target="_blank"
               rel="noreferrer"
             >
