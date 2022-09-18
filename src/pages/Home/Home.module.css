@@ -50,7 +50,11 @@
 .center img {
     width: 200px;
     height: 200px;
+
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+
     border-radius: 50%;
     display: block;
     margin: 0 auto;
@@ -63,7 +67,11 @@
     text-align: center;
 }
 
+
 .typingEffect {
+
+.AnimateEffect {
+
     font-size: 25px;
     width: 100%;
     margin: auto;

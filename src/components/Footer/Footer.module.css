@@ -4,6 +4,11 @@
   --black: #000;
   --white: #fff;
   --grey: rgb(58, 58, 58);
+
+
+  --footer-icon-bg: #2b2a2a;
+  --footer-icon-shadow: rgb(30 20 30/ 20%);
+
 }
 
 /*Footer Base*/
@@ -157,7 +162,11 @@ form {
 
 .tag {
   font-family: "Poppins", sans-serif;
+
   font: size 20px;
+
+  font-size: 20px;
+
   line-height: 26px;
   text-align: center;
   color: var(--white);
@@ -190,7 +199,13 @@ form {
 .rounded-social-buttons .social-button.linkedin,
 .rounded-social-buttons .social-button.instagram,
 .rounded-social-buttons .social-button.github {
+
   background: var(--white);
+
+  background: var(--footer-icon-bg);
+  box-shadow: 10px 10px 5px var(--footer-icon-shadow);
+  margin-right: 8px;
+
 }
 
 .twitter-icon-footer {
@@ -202,6 +217,37 @@ form {
   margin-bottom: 8px;
   width: 30px;
 }
+
+
+.linkedin:hover .linkedin-icon-footer>rect {
+  animation: rect-up 0.3s linear infinite;
+}
+@keyframes rect-up {
+  50% {
+      y: 10px;
+      height: 11px;
+  }
+  0% {
+      y: 13px;
+      height: 8px;
+  }
+}
+.linkedin:hover .linkedin-icon-footer>circle {
+  animation: bounce 0.4s linear infinite;
+}
+
+@keyframes bounce {
+  75% {
+      cy: 8px;
+  }
+  50% {
+      cy: 4px
+  }
+  0% {
+      cy: 4px
+  }
+}
+
 
 .instagram-icon-footer {
   width: 70px;
@@ -220,6 +266,10 @@ form {
 .github-icon-footer {
   margin-bottom: 8px;
   width: 35px;
+
+
+  fill: #ffffff;
+
 }
 
 .container {
@@ -243,6 +293,34 @@ form {
   animation: up 1.5s infinite;
   -webkit-animation: up 1.5s infinite;
 }
+
+
+
+@keyframes up {
+  0% {
+      transform: translate(0);
+  }
+  20% {
+      transform: translateY(-15px);
+  }
+  40% {
+      transform: translate(0);
+  }
+}
+
+@-webkit-keyframes up {
+  0% {
+      transform: translate(0);
+  }
+  20% {
+      transform: translateY(-15px);
+  }
+  40% {
+      transform: translate(0);
+  }
+}
+
+
 /*for hiding to-top button in small-screen devices  */
 @media (max-width: 580px) {
   #btnScrollToTop {
