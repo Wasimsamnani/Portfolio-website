@@ -6,7 +6,6 @@
 }
 
 
-
 html[data-theme="light"] {
     --bg-mybtn: red;
     --bg-nav: black;
@@ -236,7 +235,6 @@ ul {
 
 }
 
-}
 .dark_toggler {
     -webkit-appearance: none;
     position: relative;

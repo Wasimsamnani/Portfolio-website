@@ -1,39 +1,3 @@
-
-import React from 'react';
-import { Helmet } from "react-helmet";
-
-const Experience = () => {
-    return (
-        <div>
-            <Helmet>
-                <title>John Doe | Experience</title>
-                <meta charset="UTF-8" />
-                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <meta name="keywords" content="free portfolio template,portfolio template, portfolio website template, open source, open sourcing, contributing to open source" />
-                <meta name="description" content="An open source project aimed at providing free and beautiful templates to everyone for building their portfolio websites and showcase their work to the world." />
-                <meta name="robots" content="index,follow" />
-                <meta name="googlebot" content="index,follow" />
-                <meta name="AdsBot-Google" content="index,follow" />
-                <meta property="og:site_name" content="https://portfolio.smaranjitghose.codes/experience.html" />
-                <meta property="og:title" content="John Doe | Experience" />
-                <meta property="og:description" content="An open source project aimed at providing free and beautiful templates to everyone for building their portfolio websites and showcase their work to the world." />
-                <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://portfolio.smaranjitghose.codes/experience.html" />
-                <meta name="twitter:card" content="summary" />
-                <meta name="twitter:title" content="John Doe | Experience" />
-                <meta name="twitter:description" content="An open source project aimed at providing free and beautiful templates to everyone for building their portfolio websites and showcase their work to the world." />
-                <meta name="twitter:url" content="https://portfolio.smaranjitghose.codes/experience.html" />
-                <meta name="application-name" content="John Doe | Experience" />
-                <meta name="apple-mobile-web-app-title" content="John Doe | Experience" />
-                <meta name="summary" content="An open source project aimed at providing free and beautiful templates to everyone for building their portfolio websites and showcase their work to the world." />
-            </Helmet>
-            <h1>Hello, Experience</h1>
-        </div>
-    );
-}
-
-export default Experience;
-
 import React from 'react';
 import { Helmet } from "react-helmet";
 import styles from './Experience.module.css';
@@ -203,7 +167,7 @@ const Experience = () => {
                     </div>))}
                 </main>
             </div>
-            <div className={`${styles['main1']} ${styles['pt-1']}`}>
+            {open.length > 0 ? <div className={`${styles['main1']} ${styles['pt-1']}`}>
                 <h4 className={`${styles['text-center']} ${styles['heading1']}`}>Open <span className={styles["my_experience"]}>Source</span></h4>
                 <main className={`${styles['page-content']} ${styles['volunteership']}`}>
 
@@ -216,8 +180,8 @@ const Experience = () => {
                         </div>
                     ))}
                 </main>
-            </div>
-            <div className={`${styles['main1']} ${styles['pt-1']}`}>
+            </div>:null}
+            {hack.length>0?<div className={`${styles['main1']} ${styles['pt-1']}`}>
                 <h4 className={`${styles['text-center']} ${styles['heading1']} ${styles['mcard']}`}>Hackathon <span className={styles["my_experience"]}>Participation</span></h4>
 
                 {/* <!-- Mentorship Card --> */}
@@ -227,10 +191,9 @@ const Experience = () => {
                        <SlideContent key={item.id} title={item.title} img={item.img} badge={item.badge} content={item.content} />
                   ))}
                 </Carousel>
-            </div>
+            </div>:null}
         </div>
     );
 }
 
 export default Experience;
-
